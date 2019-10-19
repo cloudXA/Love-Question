@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>登录</title>
+    <link rel="stylesheet" href="css/common.css">
+    <style>
+        html {
+            height: 100%;
+        }
+
+        body {
+            padding: 0;
+            margin: 0;
+            background: url(img/bg.png) no-repeat;
+            background-size: 100% 100%;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+        }
+
+        .title {
+            height: 45px;
+            width: 96px;
+            font-size: 32px;
+            margin: 60px 0 0 366px;
+            color: #fff;
+            display: block;
+        }
+
+        .login-form {
+            width: 24%;
+            height: 65%;
+            background: #fff;
+            border-radius: 1%;
+            border: 1px solid rgba(151, 151, 151, 1);
+            margin: 2% auto;
+            padding: 0 3%;
+        }
+        h6 {
+            color:#586AEA;
+            text-align: center;
+            margin:40px auto;
+            font-size: 18px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <h1 class="title"><a href="#">爱题网</a></h1>
+    <div class="login-form">
+        <form action="login.html">
+            <h6>登录</h6>
+            <span>账号:</span>
+            <input id="username" placeholder="请输入账号">
+            <span>密码:</span>
+            <input id="pwd" placeholder="请输入密码">
+            <span>验证码:</span>
+            <input id="code" placeholder="请输入验证码">
+            <a id="forget-pwd">忘记密码</a>
+            <button id="login">登录</button>
+            <span>没有账户</span>
+            <a id="register">去注册</a>
+            <div class="other-way">
+                <a id="qq">
+                    <img src="img/qq.png">
+                    QQ登录
+                </a>
+                <a id="wx">
+                    <img src="img/wx.png">
+                    Q微信登录
+                </a>
+            </div>
+        </form>
+    </div>
+
+</body>
+<script>
+console.log(window.innerHeight,window.innerWidth);
+</script>
+</html>

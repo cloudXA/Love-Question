@@ -1,0 +1,93 @@
+ html{
+	 height: 100%;
+} 
+body {
+	height: 100%;
+}
+.content {
+	height:672px;
+	background-color: #fff;
+	overflow: hidden;
+	position: relative;
+}
+h4 {
+	width: 20%;
+	height: 4.46%;
+	background-image: url(../images/radio.png);
+	background-size: 100% 100%;
+	text-align: center;
+	font-size: 16px;
+	color: #74CA43;
+	margin: 3.333333% auto 0;
+}
+.double {
+	width: 8.5%;
+	height: 5.36%;
+	position: absolute;
+	top: 6.25%;
+	right: 2.916%;
+}
+.double span {
+	float: left;
+	color: #ccc;
+	width: 35.294%;
+	height: 100%;
+	border-radius: 50%;
+	background-color: #F8F8F8;
+	font-size: 24px;
+	line-height: 36px;
+	text-align: center;
+}
+
+.double em {
+	font-size: 20px;
+	float: right;
+}
+.double em::before{
+	content: "1/";
+	color: blue;
+	font-size: 22px;
+}
+.selection {
+	margin: 1.666%;
+	margin-bottom: 2.5%;
+	font-size: 18px;
+	color: #333333;
+}
+
+.options li:first-child{
+	color: #586AEA;
+}
+.options em {
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	border:1px solid #ccc;
+	border-radius: 50%;
+	text-align: center;
+	box-sizing: border-box;
+	font-size: 8px;
+	margin-left: 1.6666%;
+	cursor: pointer;
+	vertical-align: middle;
+}
+
+
+
+.options span {
+	margin-left: 1.33333%;
+}
+.options li {
+	margin-bottom: 1.6666%;
+}
+.next {
+	width: 9.666666%;
+	height: 7.1428%;
+	background-color: #586AEA;
+	position: absolute;
+	text-align: center;
+	left: 50%;
+	transform:translateX(-50%);
+	bottom: 12.94%;
+	color: #fff;
+}
