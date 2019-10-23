@@ -1,0 +1,214 @@
+<!--
+ * @Date: 2019-10-20 10:43:50
+ * @LastEditors: Cloud
+ * @LastEditTime: 2019-10-21 14:47:24
+ -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>多选模块</title>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/part3_choose.css">
+    <link rel="stylesheet" href="css/judge.css">
+    <link rel="stylesheet" href="css/base.css">
+</head>
+<body>
+    <!-- 为顶部导航栏预留 -->
+    <!-- header -->
+		<header>
+			<nav class="top w clearfix">
+				<h1 class="fl"><a href="javascript:;" title="爱题网" id="logo">爱题网</a></h1>
+				<div class="nav fl">
+					<a href="javascript:;" class="fl">首页</a>
+					<a href="javascript:;" class="fr current">题库</a>
+				</div>
+				<div class="search_login fr">
+					<div class="search fl">
+
+						<span>标题&nbsp;&nbsp;<em>▼</em></span>&nbsp;&nbsp;<i></i>
+
+						<input type="text" value="请输入搜索内容">
+						<a href="javascript:;" class="iconfont hunt">&#xe602;</a>
+					</div>
+
+					<div class="login fr" style="width: 19%;">
+						<a href="javascript:;">登录</a>
+						<a href="javascript:;" class="enroll fr">注册</a>
+					</div>
+
+				</div>
+
+			</nav>
+        </header>
+        
+        
+    <!-- 中间内容 -->
+    <main class="w contain ">
+        <section class="topic">
+            <nav class="clearfix">
+                <p class="multiple_title">多选</p>
+                <div class="nav_star">
+                    <span>★</span>
+                    <div>
+                        <span>1</span>/
+                        <span>20</span>
+                    </div>
+                    
+                </div>
+            </nav>
+            <div>
+                <div class="question">
+                    1、某某公司JAVA面试题库某某公司JAVA面试题库某某公司JAVA面试题库某某公司JAVA面试题库某某公司JAVA面试题库某某公司JAVA面试题库某某公司JAVA面试题库？(5分)
+                </div>
+                <ul class="question_list">
+                    <li>A、JAVA是最好的语言</li>
+                    <li>B、JAVA是最好的语言最好的语言</li>
+                    <li>C、JAVA是最好的语言JAVA是最好的语言</li>
+                    <li>D、JAVA是最好的语言JAVA是最好的语言</li>
+                </ul>
+                <!-- 判断和简答模块的扩展备用 -->
+                <!-- <div>
+                    <span>正确答案</span>
+                    <div>
+                        对
+                    </div>
+                </div> -->
+                <input type="submit" name="" id="analysis" value="解析">
+                <div class="analysis">
+                    <span>解析:</span>
+                    <div>
+                        某某公司JAVA面试题库某某公司JAVA面试题库某某公司JAVA面试题库某某公司JAVA面试题库某某公司JAVA面试题库某某公司JAVA面试题库某某公司JAVA面试题库？某某公司JAVA面试题库某某公司JAVA面试题库某某公司JAVA面试题库某某公司JAVA面试题库某某公司JAVA面试题库某某公司JAVA面试题库某某公司JAVA面试题库？某某公司JAVA面试题库某某公司JAVA面试题库某某公司JAVA面试题库某某公司JAVA面试题库某某公司JAVA面试题库某某公司JAVA面试题库某某公司JAVA面试题库？
+                    </div>
+                </div>
+                <div class="attribute_icon">
+                    <img src="images/eye.png" alt="" width="23px" height="15px">
+                    <span><i>12455</i>人</span>
+                    <img src="images/likegray.png" alt="" width="23px" height="20px" class="like">
+                    <span>132</span>
+                </div>
+            </div>
+        </section>
+        <section class="comment">
+            <h2>评论（<span>234</span>条）</h2>
+            <ul class="comment_lists">
+                <li>
+                    <img src="images/avatar.png" alt="" width="28px" height="28px">
+                    <textarea name="" id="textarea" cols="155" rows="10"></textarea>
+                    <div class="clearfix emtion_contain">
+                        <div class="fl emtion_control">
+                            <img src="images/emtion.png" alt="" width="20px" height="20px" class="emtion">
+                            <span>Ctr+Enter</span>
+                        </div>
+                        <input type="submit" value="提交" class="comment_submit fr">
+                    </div>
+                </li>
+                <!-- 新添加的评论 -->
+                <li class="comment_users">
+                    <div >
+                        <div class="clearfix comment_avatar">
+                            <div class="fl">
+                                <img src="images/avatar.png" alt="" width="28px" height="28px">
+                                <span>你是沙雕吗</span>
+                            </div>
+                            <div class="fr">
+                                <span>1分钟前</span>
+                                <img src="images/likegray.png" alt="" width="23px" height="20px" class="like">
+                                <span>132</span>
+                            </div>
+                        </div>
+                        <div class="comment_content">
+                            JAVA是最好的语言
+                        </div>
+                    </div>
+                </li>
+
+                <li class="comment_users">
+                    <div >
+                        <div class="clearfix comment_avatar">
+                            <div class="fl">
+                                <img src="images/avatar.png" alt="" width="28px" height="28px">
+                                <span>你是沙雕吗</span>
+                            </div>
+                            <div class="fr">
+                                <span>1分钟前</span>
+                                <img src="images/likegray.png" alt="" width="23px" height="20px" class="like">
+                                <span>132</span>
+                            </div>
+                        </div>
+                        <div class="comment_content">
+                            JAVA是最好的语言
+                        </div>
+                    </div>
+                </li>
+                <li class="comment_users">
+                    <div >
+                        <div class="clearfix comment_avatar">
+                            <div class="fl">
+                                <img src="images/avatar.png" alt="" width="28px" height="28px">
+                                <span>岁月静好</span>
+                            </div>
+                            <div class="fr">
+                                <span>1分钟前</span>
+                                <img src="images/likegray.png" alt="" width="23px" height="20px" class="like">
+                                <span>132</span>
+                            </div>
+                        </div>
+                        <div class="comment_content">
+                            JAVA是最好的语言
+                        </div>
+                    </div>
+                </li>
+                <li class="comment_users">
+                    <div >
+                        <div class="clearfix comment_avatar">
+                            <div class="fl">
+                                <img src="images/avatar.png" alt="" width="28px" height="28px">
+                                <span>飞翔的鱼</span>
+                            </div>
+                            <div class="fr">
+                                <span>1分钟前</span>
+                                <img src="images/likegray.png" alt="" width="23px" height="20px" class="like">
+                                <span>132</span>
+                            </div>
+                        </div>
+                        <div class="comment_content"> 
+                            JAVA是最好的语言
+                        </div>
+                    </div>
+                </li>
+                
+            </ul>
+        </section>
+    </main>
+    <!-- 页脚内容 -->
+    <footer>
+        <div class="footer w">
+            <div class="service fl">
+                <h2><a href="javascript:;" title="爱题网">爱题网</a></h2>
+                <ul class="clearfix">
+                    <li><a href="javascript:;">加入我们</a></li>
+                    <li><a href="javascript:;">联系我们</a></li>
+                    <li><a href="javascript:;">关于我们</a></li>
+                    <li><a href="javascript:;">常见问题</a></li>
+                    <li><a href="javascript:;">意见反馈</a></li>
+                </ul>
+            </div>
+
+
+            <div class="barcode fr">
+                <img src="images/erweima_03.png">
+                <p>扫一扫</p>
+                <p>关注微信公众号</p>
+            </div>
+
+            <p class="icp">京ICP备1238657119号&nbsp;|&nbsp;京安网安备1386929号</p>
+
+        </div>
+    </footer>
+
+    <script src="js/part3_choose.js"></script>
+</body>
+</html>

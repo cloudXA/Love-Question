@@ -1,0 +1,195 @@
+/* 字体图标 */
+@font-face {font-family: "iconfont";
+  src: url('iconfont.eot?t=1571580471084'); /* IE9 */
+  src: url('iconfont.eot?t=1571580471084#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAS0AAsAAAAACSAAAARoAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCDIgqFUIR6ATYCJAMUCwwABCAFhG0HRxv1B8gekiRC0AYOAABQgEQRUGvoHgYAFKJnnYmKIlAxIp51dIxvje3UsxH//79n3ZcMhDeA1u6cJl2oSDppnWaEdEn9QsGCv9LvTgMETOU9OGa88g0sz7Z2qQxaU9kAJzig6KLhg/6D4SuIZ9P5nMDtBLSbVgwdjZmkhQCZ3C8gPHJmPQQE9HIGLmhV1YSpGcIH+GqNy4iHwLv19+E/bBUAopJA3unkYbQJhv2CX2lkX38fzE4i9DVnBT+LhBUgE24S7WdIJ76C1P5h9rEBVFkTfymxtP6GJnmWnmEWtCNKuH8eoYIs7wRmL5H5BRqFyC9EIfGL4Gcr0iDcBnkx+rajCz9BaEo5Y8nTwv/o1BkSODA+MDAyKCg4KcQqvUzc+opS3yTteD1dUWhV1ckyJUm6nU+XPxdfrHg266yUs+lGkaw5eBN2ydQKNTl4mxysquni7dwXumPX4o8olafv5yKxMH57XOkpkqTdmBB7FODrrmdFbGj1PnmyVnfoUs6W+O1IVelNx/qOLj8untBu1qUrfAp7Hm6rRSuu5FH0DdWQJguOjwcv3y7ucKLznkqUKj9dp0jN9PHr2eprWlmplbyU/Em39VwBdWvF0DuiQVpJKwt06ipK9v4Y+C36RXy0JomzpF8NrtMs/utnDbJa0TSkgVTDcT0uOIiH3vSnNMox4B282m/+IMU+JGLUutdZsYSudDgMXO7uqN26ZeBw8B9HxGa9XhcxaohdGeQ3f/XQH/UhOSkknNeeNYe7Cfr9tYd9e+YAOZEbUv8Dnv+HfY+mdto41ELsWkiwDQPmjkrW6is2qWvv3u1MQ3MXdZVP+ZmBM7EXixdG/1yP1+HXhyd8JKilvB6xaCFPUAS9iGdQ7NZRkwpiRp+p0TQ0BsOw4F4ch5cH/xz+6TwT3u9dVro5bGro8JGdHNc5cnjopLAtxffWtbVn/FpH9SYUODxip9bb2enVqsvx9oKEPioBMt9WOa8ya+6syzZzCsGabSkitIY2gOYmeZ4YbA25Sp4gNQCkV+JBv5x88kGk+Azt53NBwIF54YP+BXT4APx4vqKOioulg1aRwoInxpqhkc25rwiGkt+lmr7pfweKY89FNKJdcdPA3e99M+qha5EMWg15ELWYsiatXwEQGbMCRYcdqFrtQrtlY2d3GMAjhRwILFlEIOh1BqJu3yDp9QiRMe+gGPYNqt5IaHcaopfsMBcXNJJn9AJjwoZ2zBmdDlY1CUF2diNjbrbpeb/IwtMM7+FCuKK0PJwayzgYvokRnhZzpSCwmOWddjyG7MbYbE7s4p0WxiiUNgmCa0BZGZv0oVKj0w5BDvEYegKGCWbQDuMYOTmwRn1BUOT3GzHMmtno8RkVP+w0Bs+DaxyrUKq8AGKs3FGo4lBu8WhhVkkgYGEsnpMdNoZYGTYl7oS5kjtZMIwEpZoqRF0GKKO12KLy0u6V9n0suG+rym8qgUAk8kG+yA/qbZPeqncQbrdfK8O1cQ4/j7PZ0+wEAA==') format('woff2'),
+  url('iconfont.woff?t=1571580471084') format('woff'),
+  url('iconfont.ttf?t=1571580471084') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  url('iconfont.svg?t=1571580471084#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-chakan:before {
+  content: "\e61e";
+}
+
+.icon-qq:before {
+  content: "\e600";
+}
+
+.icon-weixin:before {
+  content: "\e601";
+}
+
+.icon-sousuo:before {
+  content: "\e602";
+}
+
+
+/* 顶部导航栏 */
+header {
+	background-color: #fff;
+	margin-bottom: 20px;
+	box-shadow: 6px 0px 12px 0px rgba(0, 0, 0, 0.1);
+}
+
+nav[class*=top] {
+	/* height: 70px; */
+	overflow: hidden;
+	position: relative;
+}
+
+header h1 {
+	width: 16.5%;
+	height: 64.285%;
+	color: #586AEA;
+	margin: 1.1666% 0 0 0.4166%;
+
+}
+
+#logo {
+	display: block;
+	height: 100%;
+	color: #586AEA;
+	font-size: 32px;
+	font-weight: 500;
+	width: 48.50%;
+	line-height: 45px;
+}
+
+header .nav {
+	width: 11.167%;
+	height: 100%;
+
+}
+
+.nav a {
+	font-size: 16px;
+	display: inline-block;
+	height: 100%;
+	color: #505050;
+	line-height: 70px;
+}
+
+.nav .current {
+	color: #586AEA;
+	border-bottom: 2px solid #586AEA;
+	box-sizing: border-box;
+}
+.search_login {
+	width: 41%;
+	height: 100%;
+	margin-top: 1.4166%;
+	line-height: 38px;
+}
+.search {
+	width: 60.5%;
+	height: 51.43%;
+	border-radius:3px;
+	border:1px solid #ccc;
+	overflow: hidden;
+	position: relative;
+}
+.search .hunt {
+	color: #586AEA;
+	font-size: 22px;
+	position: absolute;
+	right: 5%;
+	font-style: normal;
+}
+.search span {
+	margin-left: 1.22%;
+	color: #333;
+	font-size: 12px;
+}
+.search em{
+	font-size: 10px;
+	color: #999;
+}
+.search i {
+	display: inline-block;
+	height: 20px;
+	width: 1px;
+	background-color: #ccc;
+	margin-top: -0.8%;
+	vertical-align: middle;
+}
+.search input {
+	color: #ccc;
+	border: none;
+	margin-top: -1.3%;
+	height: 100%;
+	width: 63%;
+	font-size: 12px;
+}
+.search_login .login {
+	color: #505050;
+	font-size: 12px;
+	line-height: 24px;
+	margin-top: 1.5%;
+}
+.login .enroll {
+	width: 60%;
+	text-align: center;
+	/* height: 26px; */
+	border: 1px solid #586AEA;
+	border-radius: 12px;
+	color: #586AEA;
+}
+
+/* 页脚 */
+footer {
+	height: 300px;
+	margin-top: 20px;
+	background: #3A3A3A;
+	overflow: hidden;
+}
+.footer {
+	height: 100%;
+	position: relative;
+}
+.service {
+	margin: 7.1% 0 0 15%;
+	height: 100%;
+	width: 40%;
+}
+.service h2  {
+	height: 106px;
+}
+.service h2 a {
+	font-size:32px;
+	font-weight:500;
+	color: #586AEA;
+}
+
+.service li {
+	float: left;
+	font-weight:500;
+	margin-right: 4.4%;
+}
+.service li a {
+	color: #fff;
+}
+.barcode {
+	color: #fff;
+	text-align: center;
+	margin: 2.833% 16.6% 0 0;
+}
+.barcode P:nth-child(2){
+	margin-top: 8.33%;
+}
+.footer .icp {
+	color: #999;
+	font-size:14px;
+	position: absolute;
+	bottom: 6.66%;
+	left: 50%;
+	transform: translateX(-50%);
+}
